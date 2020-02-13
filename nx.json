@@ -1,0 +1,22 @@
+{
+  "npmScope": "coverage-workspace",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "cov-app": {
+      "tags": []
+    },
+    "cov-app-e2e": {
+      "tags": [],
+      "implicitDependencies": ["cov-app"]
+    }
+  }
+}
