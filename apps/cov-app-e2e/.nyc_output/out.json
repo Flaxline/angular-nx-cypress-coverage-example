@@ -1,0 +1,1783 @@
+{
+  "C:\\Users\\walchshofer\\git\\coverage-workspace\\apps\\cov-app\\src\\polyfills.ts": {
+    "path": "C:\\Users\\walchshofer\\git\\coverage-workspace\\apps\\cov-app\\src\\polyfills.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "file": "polyfills.js",
+      "sourceRoot": "",
+      "sources": [
+        "C:\\Users\\walchshofer\\git\\coverage-workspace\\apps\\cov-app\\src\\polyfills.ts"
+      ],
+      "names": [],
+      "mappings": "AAAA;;;;;;;;;;;;;;GAcG;AAEH;;GAEG;AAEH,+EAA+E;AAC/E,oEAAoE;AAEpE;;;;GAIG;AACH,8EAA8E;AAE9E;;;;;;;;;;;;;;;;;;;;;;GAsBG;AAEH;;GAEG;AACH,OAAO,mBAAmB,CAAC,CAAC,6BAA6B;AAEzD;;GAEG",
+      "sourcesContent": [
+        "/**\r\n * This file includes polyfills needed by Angular and is loaded before the app.\r\n * You can add your own extra polyfills to this file.\r\n *\r\n * This file is divided into 2 sections:\r\n *   1. Browser polyfills. These are applied before loading ZoneJS and are sorted by browsers.\r\n *   2. Application imports. Files imported after ZoneJS that should be loaded before your main\r\n *      file.\r\n *\r\n * The current setup is for so-called \"evergreen\" browsers; the last versions of browsers that\r\n * automatically update themselves. This includes Safari >= 10, Chrome >= 55 (including Opera),\r\n * Edge >= 13 on the desktop, and iOS 10 and Chrome on mobile.\r\n *\r\n * Learn more in https://angular.io/guide/browser-support\r\n */\r\n\r\n/***************************************************************************************************\r\n * BROWSER POLYFILLS\r\n */\r\n\r\n/** IE10 and IE11 requires the following for NgClass support on SVG elements */\r\n// import 'classlist.js';  // Run `npm install --save classlist.js`.\r\n\r\n/**\r\n * Web Animations `@angular/platform-browser/animations`\r\n * Only required if AnimationBuilder is used within the application and using IE/Edge or Safari.\r\n * Standard animation support in Angular DOES NOT require any polyfills (as of Angular 6.0).\r\n */\r\n// import 'web-animations-js';  // Run `npm install --save web-animations-js`.\r\n\r\n/**\r\n * By default, zone.js will patch all possible macroTask and DomEvents\r\n * user can disable parts of macroTask/DomEvents patch by setting following flags\r\n * because those flags need to be set before `zone.js` being loaded, and webpack\r\n * will put import in the top of bundle, so user need to create a separate file\r\n * in this directory (for example: zone-flags.ts), and put the following flags\r\n * into that file, and then add the following code before importing zone.js.\r\n * import './zone-flags.ts';\r\n *\r\n * The flags allowed in zone-flags.ts are listed here.\r\n *\r\n * The following flags will work for all browsers.\r\n *\r\n * (window as any).__Zone_disable_requestAnimationFrame = true; // disable patch requestAnimationFrame\r\n * (window as any).__Zone_disable_on_property = true; // disable patch onProperty such as onclick\r\n * (window as any).__zone_symbol__UNPATCHED_EVENTS = ['scroll', 'mousemove']; // disable patch specified eventNames\r\n *\r\n *  in IE/Edge developer tools, the addEventListener will also be wrapped by zone.js\r\n *  with the following flag, it will bypass `zone.js` patch for IE/Edge\r\n *\r\n *  (window as any).__Zone_enable_cross_context_check = true;\r\n *\r\n */\r\n\r\n/***************************************************************************************************\r\n * Zone JS is required by default for Angular itself.\r\n */\r\nimport 'zone.js/dist/zone'; // Included with Angular CLI.\r\n\r\n/***************************************************************************************************\r\n * APPLICATION IMPORTS\r\n */\r\n"
+      ]
+    },
+    "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+    "hash": "cfd72d230e1ea95965eac0ccf970be62303736a3"
+  },
+  "C:\\Users\\walchshofer\\git\\coverage-workspace\\apps\\cov-app\\src\\environments\\environment.ts": {
+    "path": "C:\\Users\\walchshofer\\git\\coverage-workspace\\apps\\cov-app\\src\\environments\\environment.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 27
+        },
+        "end": {
+          "line": 6,
+          "column": 1
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 1
+    },
+    "f": {},
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "file": "environment.js",
+      "sourceRoot": "",
+      "sources": [
+        "C:\\Users\\walchshofer\\git\\coverage-workspace\\apps\\cov-app\\src\\environments\\environment.ts"
+      ],
+      "names": [],
+      "mappings": "AAAA,gFAAgF;AAChF,0EAA0E;AAC1E,gEAAgE;AAEhE,MAAM,CAAC,MAAM,WAAW,GAAG;IACzB,UAAU,EAAE,KAAK;CAClB,CAAC;AAEF;;;;;;GAMG;AACH,mEAAmE",
+      "sourcesContent": [
+        "// This file can be replaced during build by using the `fileReplacements` array.\r\n// `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.\r\n// The list of file replacements can be found in `angular.json`.\r\n\r\nexport const environment = {\r\n  production: false\r\n};\r\n\r\n/*\r\n * For easier debugging in development mode, you can import the following file\r\n * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.\r\n *\r\n * This import should be commented out in production mode because it will have a negative impact\r\n * on performance if an error is thrown.\r\n */\r\n// import 'zone.js/dist/zone-error';  // Included with Angular CLI.\r\n"
+      ]
+    },
+    "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+    "hash": "d6b67e2ee48f8ed517bbfa0e07438a30cc3002de"
+  },
+  "C:\\Users\\walchshofer\\git\\coverage-workspace\\apps\\cov-app\\src\\app\\app.component.ts": {
+    "path": "C:\\Users\\walchshofer\\git\\coverage-workspace\\apps\\cov-app\\src\\app\\app.component.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 8
+        },
+        "end": {
+          "line": 5,
+          "column": 31
+        }
+      },
+      "1": {
+        "start": {
+          "line": 8,
+          "column": 0
+        },
+        "end": {
+          "line": 8,
+          "column": 91
+        }
+      },
+      "2": {
+        "start": {
+          "line": 8,
+          "column": 55
+        },
+        "end": {
+          "line": 8,
+          "column": 88
+        }
+      },
+      "3": {
+        "start": {
+          "line": 9,
+          "column": 0
+        },
+        "end": {
+          "line": 99,
+          "column": 7823
+        }
+      },
+      "4": {
+        "start": {
+          "line": 9,
+          "column": 1210
+        },
+        "end": {
+          "line": 96,
+          "column": 5
+        }
+      },
+      "5": {
+        "start": {
+          "line": 10,
+          "column": 8
+        },
+        "end": {
+          "line": 10,
+          "column": 42
+        }
+      },
+      "6": {
+        "start": {
+          "line": 11,
+          "column": 8
+        },
+        "end": {
+          "line": 11,
+          "column": 34
+        }
+      },
+      "7": {
+        "start": {
+          "line": 12,
+          "column": 8
+        },
+        "end": {
+          "line": 12,
+          "column": 35
+        }
+      },
+      "8": {
+        "start": {
+          "line": 13,
+          "column": 8
+        },
+        "end": {
+          "line": 13,
+          "column": 21
+        }
+      },
+      "9": {
+        "start": {
+          "line": 14,
+          "column": 8
+        },
+        "end": {
+          "line": 14,
+          "column": 26
+        }
+      },
+      "10": {
+        "start": {
+          "line": 15,
+          "column": 8
+        },
+        "end": {
+          "line": 15,
+          "column": 26
+        }
+      },
+      "11": {
+        "start": {
+          "line": 16,
+          "column": 8
+        },
+        "end": {
+          "line": 16,
+          "column": 37
+        }
+      },
+      "12": {
+        "start": {
+          "line": 17,
+          "column": 8
+        },
+        "end": {
+          "line": 17,
+          "column": 35
+        }
+      },
+      "13": {
+        "start": {
+          "line": 18,
+          "column": 8
+        },
+        "end": {
+          "line": 18,
+          "column": 42
+        }
+      },
+      "14": {
+        "start": {
+          "line": 19,
+          "column": 8
+        },
+        "end": {
+          "line": 19,
+          "column": 26
+        }
+      },
+      "15": {
+        "start": {
+          "line": 20,
+          "column": 8
+        },
+        "end": {
+          "line": 20,
+          "column": 34
+        }
+      },
+      "16": {
+        "start": {
+          "line": 21,
+          "column": 8
+        },
+        "end": {
+          "line": 21,
+          "column": 78
+        }
+      },
+      "17": {
+        "start": {
+          "line": 22,
+          "column": 8
+        },
+        "end": {
+          "line": 22,
+          "column": 26
+        }
+      },
+      "18": {
+        "start": {
+          "line": 23,
+          "column": 8
+        },
+        "end": {
+          "line": 23,
+          "column": 39
+        }
+      },
+      "19": {
+        "start": {
+          "line": 24,
+          "column": 8
+        },
+        "end": {
+          "line": 24,
+          "column": 38
+        }
+      },
+      "20": {
+        "start": {
+          "line": 25,
+          "column": 8
+        },
+        "end": {
+          "line": 25,
+          "column": 66
+        }
+      },
+      "21": {
+        "start": {
+          "line": 26,
+          "column": 8
+        },
+        "end": {
+          "line": 26,
+          "column": 40
+        }
+      },
+      "22": {
+        "start": {
+          "line": 27,
+          "column": 8
+        },
+        "end": {
+          "line": 27,
+          "column": 28
+        }
+      },
+      "23": {
+        "start": {
+          "line": 28,
+          "column": 8
+        },
+        "end": {
+          "line": 28,
+          "column": 40
+        }
+      },
+      "24": {
+        "start": {
+          "line": 29,
+          "column": 8
+        },
+        "end": {
+          "line": 29,
+          "column": 36
+        }
+      },
+      "25": {
+        "start": {
+          "line": 30,
+          "column": 8
+        },
+        "end": {
+          "line": 30,
+          "column": 36
+        }
+      },
+      "26": {
+        "start": {
+          "line": 31,
+          "column": 8
+        },
+        "end": {
+          "line": 31,
+          "column": 26
+        }
+      },
+      "27": {
+        "start": {
+          "line": 32,
+          "column": 8
+        },
+        "end": {
+          "line": 32,
+          "column": 32
+        }
+      },
+      "28": {
+        "start": {
+          "line": 33,
+          "column": 8
+        },
+        "end": {
+          "line": 33,
+          "column": 26
+        }
+      },
+      "29": {
+        "start": {
+          "line": 34,
+          "column": 8
+        },
+        "end": {
+          "line": 34,
+          "column": 26
+        }
+      },
+      "30": {
+        "start": {
+          "line": 35,
+          "column": 8
+        },
+        "end": {
+          "line": 35,
+          "column": 26
+        }
+      },
+      "31": {
+        "start": {
+          "line": 36,
+          "column": 8
+        },
+        "end": {
+          "line": 36,
+          "column": 29
+        }
+      },
+      "32": {
+        "start": {
+          "line": 37,
+          "column": 8
+        },
+        "end": {
+          "line": 37,
+          "column": 35
+        }
+      },
+      "33": {
+        "start": {
+          "line": 38,
+          "column": 8
+        },
+        "end": {
+          "line": 38,
+          "column": 72
+        }
+      },
+      "34": {
+        "start": {
+          "line": 39,
+          "column": 8
+        },
+        "end": {
+          "line": 39,
+          "column": 26
+        }
+      },
+      "35": {
+        "start": {
+          "line": 40,
+          "column": 8
+        },
+        "end": {
+          "line": 40,
+          "column": 39
+        }
+      },
+      "36": {
+        "start": {
+          "line": 41,
+          "column": 8
+        },
+        "end": {
+          "line": 41,
+          "column": 39
+        }
+      },
+      "37": {
+        "start": {
+          "line": 42,
+          "column": 8
+        },
+        "end": {
+          "line": 42,
+          "column": 39
+        }
+      },
+      "38": {
+        "start": {
+          "line": 43,
+          "column": 8
+        },
+        "end": {
+          "line": 43,
+          "column": 43
+        }
+      },
+      "39": {
+        "start": {
+          "line": 44,
+          "column": 8
+        },
+        "end": {
+          "line": 44,
+          "column": 26
+        }
+      },
+      "40": {
+        "start": {
+          "line": 45,
+          "column": 8
+        },
+        "end": {
+          "line": 45,
+          "column": 26
+        }
+      },
+      "41": {
+        "start": {
+          "line": 46,
+          "column": 8
+        },
+        "end": {
+          "line": 46,
+          "column": 39
+        }
+      },
+      "42": {
+        "start": {
+          "line": 47,
+          "column": 8
+        },
+        "end": {
+          "line": 47,
+          "column": 39
+        }
+      },
+      "43": {
+        "start": {
+          "line": 48,
+          "column": 8
+        },
+        "end": {
+          "line": 48,
+          "column": 45
+        }
+      },
+      "44": {
+        "start": {
+          "line": 49,
+          "column": 8
+        },
+        "end": {
+          "line": 49,
+          "column": 26
+        }
+      },
+      "45": {
+        "start": {
+          "line": 50,
+          "column": 8
+        },
+        "end": {
+          "line": 50,
+          "column": 26
+        }
+      },
+      "46": {
+        "start": {
+          "line": 51,
+          "column": 8
+        },
+        "end": {
+          "line": 51,
+          "column": 39
+        }
+      },
+      "47": {
+        "start": {
+          "line": 52,
+          "column": 8
+        },
+        "end": {
+          "line": 52,
+          "column": 39
+        }
+      },
+      "48": {
+        "start": {
+          "line": 53,
+          "column": 8
+        },
+        "end": {
+          "line": 53,
+          "column": 48
+        }
+      },
+      "49": {
+        "start": {
+          "line": 54,
+          "column": 8
+        },
+        "end": {
+          "line": 54,
+          "column": 26
+        }
+      },
+      "50": {
+        "start": {
+          "line": 55,
+          "column": 8
+        },
+        "end": {
+          "line": 55,
+          "column": 26
+        }
+      },
+      "51": {
+        "start": {
+          "line": 56,
+          "column": 8
+        },
+        "end": {
+          "line": 56,
+          "column": 39
+        }
+      },
+      "52": {
+        "start": {
+          "line": 57,
+          "column": 8
+        },
+        "end": {
+          "line": 57,
+          "column": 39
+        }
+      },
+      "53": {
+        "start": {
+          "line": 58,
+          "column": 8
+        },
+        "end": {
+          "line": 58,
+          "column": 36
+        }
+      },
+      "54": {
+        "start": {
+          "line": 59,
+          "column": 8
+        },
+        "end": {
+          "line": 59,
+          "column": 42
+        }
+      },
+      "55": {
+        "start": {
+          "line": 60,
+          "column": 8
+        },
+        "end": {
+          "line": 60,
+          "column": 38
+        }
+      },
+      "56": {
+        "start": {
+          "line": 61,
+          "column": 8
+        },
+        "end": {
+          "line": 61,
+          "column": 26
+        }
+      },
+      "57": {
+        "start": {
+          "line": 62,
+          "column": 8
+        },
+        "end": {
+          "line": 62,
+          "column": 26
+        }
+      },
+      "58": {
+        "start": {
+          "line": 63,
+          "column": 8
+        },
+        "end": {
+          "line": 63,
+          "column": 26
+        }
+      },
+      "59": {
+        "start": {
+          "line": 64,
+          "column": 8
+        },
+        "end": {
+          "line": 64,
+          "column": 26
+        }
+      },
+      "60": {
+        "start": {
+          "line": 65,
+          "column": 8
+        },
+        "end": {
+          "line": 65,
+          "column": 36
+        }
+      },
+      "61": {
+        "start": {
+          "line": 66,
+          "column": 8
+        },
+        "end": {
+          "line": 66,
+          "column": 36
+        }
+      },
+      "62": {
+        "start": {
+          "line": 67,
+          "column": 8
+        },
+        "end": {
+          "line": 67,
+          "column": 26
+        }
+      },
+      "63": {
+        "start": {
+          "line": 68,
+          "column": 8
+        },
+        "end": {
+          "line": 68,
+          "column": 35
+        }
+      },
+      "64": {
+        "start": {
+          "line": 69,
+          "column": 8
+        },
+        "end": {
+          "line": 69,
+          "column": 66
+        }
+      },
+      "65": {
+        "start": {
+          "line": 70,
+          "column": 8
+        },
+        "end": {
+          "line": 70,
+          "column": 26
+        }
+      },
+      "66": {
+        "start": {
+          "line": 71,
+          "column": 8
+        },
+        "end": {
+          "line": 71,
+          "column": 45
+        }
+      },
+      "67": {
+        "start": {
+          "line": 72,
+          "column": 8
+        },
+        "end": {
+          "line": 72,
+          "column": 41
+        }
+      },
+      "68": {
+        "start": {
+          "line": 73,
+          "column": 8
+        },
+        "end": {
+          "line": 73,
+          "column": 40
+        }
+      },
+      "69": {
+        "start": {
+          "line": 74,
+          "column": 8
+        },
+        "end": {
+          "line": 74,
+          "column": 26
+        }
+      },
+      "70": {
+        "start": {
+          "line": 75,
+          "column": 8
+        },
+        "end": {
+          "line": 75,
+          "column": 37
+        }
+      },
+      "71": {
+        "start": {
+          "line": 76,
+          "column": 8
+        },
+        "end": {
+          "line": 76,
+          "column": 138
+        }
+      },
+      "72": {
+        "start": {
+          "line": 77,
+          "column": 8
+        },
+        "end": {
+          "line": 77,
+          "column": 26
+        }
+      },
+      "73": {
+        "start": {
+          "line": 78,
+          "column": 8
+        },
+        "end": {
+          "line": 78,
+          "column": 26
+        }
+      },
+      "74": {
+        "start": {
+          "line": 79,
+          "column": 8
+        },
+        "end": {
+          "line": 79,
+          "column": 41
+        }
+      },
+      "75": {
+        "start": {
+          "line": 80,
+          "column": 8
+        },
+        "end": {
+          "line": 80,
+          "column": 41
+        }
+      },
+      "76": {
+        "start": {
+          "line": 81,
+          "column": 8
+        },
+        "end": {
+          "line": 81,
+          "column": 47
+        }
+      },
+      "77": {
+        "start": {
+          "line": 82,
+          "column": 8
+        },
+        "end": {
+          "line": 82,
+          "column": 26
+        }
+      },
+      "78": {
+        "start": {
+          "line": 83,
+          "column": 8
+        },
+        "end": {
+          "line": 83,
+          "column": 37
+        }
+      },
+      "79": {
+        "start": {
+          "line": 84,
+          "column": 8
+        },
+        "end": {
+          "line": 84,
+          "column": 38
+        }
+      },
+      "80": {
+        "start": {
+          "line": 85,
+          "column": 8
+        },
+        "end": {
+          "line": 85,
+          "column": 26
+        }
+      },
+      "81": {
+        "start": {
+          "line": 86,
+          "column": 8
+        },
+        "end": {
+          "line": 86,
+          "column": 26
+        }
+      },
+      "82": {
+        "start": {
+          "line": 87,
+          "column": 8
+        },
+        "end": {
+          "line": 87,
+          "column": 41
+        }
+      },
+      "83": {
+        "start": {
+          "line": 88,
+          "column": 8
+        },
+        "end": {
+          "line": 88,
+          "column": 41
+        }
+      },
+      "84": {
+        "start": {
+          "line": 89,
+          "column": 8
+        },
+        "end": {
+          "line": 89,
+          "column": 47
+        }
+      },
+      "85": {
+        "start": {
+          "line": 90,
+          "column": 8
+        },
+        "end": {
+          "line": 90,
+          "column": 26
+        }
+      },
+      "86": {
+        "start": {
+          "line": 91,
+          "column": 8
+        },
+        "end": {
+          "line": 91,
+          "column": 37
+        }
+      },
+      "87": {
+        "start": {
+          "line": 92,
+          "column": 8
+        },
+        "end": {
+          "line": 92,
+          "column": 197
+        }
+      },
+      "88": {
+        "start": {
+          "line": 93,
+          "column": 8
+        },
+        "end": {
+          "line": 93,
+          "column": 26
+        }
+      },
+      "89": {
+        "start": {
+          "line": 94,
+          "column": 8
+        },
+        "end": {
+          "line": 94,
+          "column": 26
+        }
+      },
+      "90": {
+        "start": {
+          "line": 95,
+          "column": 8
+        },
+        "end": {
+          "line": 95,
+          "column": 26
+        }
+      },
+      "91": {
+        "start": {
+          "line": 96,
+          "column": 6
+        },
+        "end": {
+          "line": 99,
+          "column": 5
+        }
+      },
+      "92": {
+        "start": {
+          "line": 97,
+          "column": 8
+        },
+        "end": {
+          "line": 97,
+          "column": 24
+        }
+      },
+      "93": {
+        "start": {
+          "line": 98,
+          "column": 8
+        },
+        "end": {
+          "line": 98,
+          "column": 61
+        }
+      },
+      "94": {
+        "start": {
+          "line": 100,
+          "column": 14
+        },
+        "end": {
+          "line": 107,
+          "column": 26
+        }
+      },
+      "95": {
+        "start": {
+          "line": 100,
+          "column": 29
+        },
+        "end": {
+          "line": 107,
+          "column": 20
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 4
+          },
+          "end": {
+            "line": 4,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 18
+          },
+          "end": {
+            "line": 6,
+            "column": 5
+          }
+        },
+        "line": 4
+      },
+      "1": {
+        "name": "AppComponent_Factory",
+        "decl": {
+          "start": {
+            "line": 8,
+            "column": 29
+          },
+          "end": {
+            "line": 8,
+            "column": 49
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 53
+          },
+          "end": {
+            "line": 8,
+            "column": 90
+          }
+        },
+        "line": 8
+      },
+      "2": {
+        "name": "AppComponent_Template",
+        "decl": {
+          "start": {
+            "line": 9,
+            "column": 1177
+          },
+          "end": {
+            "line": 9,
+            "column": 1198
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 1208
+          },
+          "end": {
+            "line": 99,
+            "column": 7
+          }
+        },
+        "line": 9
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 100,
+            "column": 15
+          },
+          "end": {
+            "line": 100,
+            "column": 16
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 100,
+            "column": 27
+          },
+          "end": {
+            "line": 107,
+            "column": 22
+          }
+        },
+        "line": 100
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 67
+          },
+          "end": {
+            "line": 8,
+            "column": 84
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 8,
+              "column": 67
+            },
+            "end": {
+              "line": 8,
+              "column": 68
+            }
+          },
+          {
+            "start": {
+              "line": 8,
+              "column": 72
+            },
+            "end": {
+              "line": 8,
+              "column": 84
+            }
+          }
+        ],
+        "line": 8
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 1210
+          },
+          "end": {
+            "line": 96,
+            "column": 5
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 9,
+              "column": 1210
+            },
+            "end": {
+              "line": 96,
+              "column": 5
+            }
+          },
+          {
+            "start": {
+              "line": 9,
+              "column": 1210
+            },
+            "end": {
+              "line": 96,
+              "column": 5
+            }
+          }
+        ],
+        "line": 9
+      },
+      "2": {
+        "loc": {
+          "start": {
+            "line": 96,
+            "column": 6
+          },
+          "end": {
+            "line": 99,
+            "column": 5
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 96,
+              "column": 6
+            },
+            "end": {
+              "line": 99,
+              "column": 5
+            }
+          },
+          {
+            "start": {
+              "line": 96,
+              "column": 6
+            },
+            "end": {
+              "line": 99,
+              "column": 5
+            }
+          }
+        ],
+        "line": 96
+      }
+    },
+    "s": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 5,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1,
+      "10": 1,
+      "11": 1,
+      "12": 1,
+      "13": 1,
+      "14": 1,
+      "15": 1,
+      "16": 1,
+      "17": 1,
+      "18": 1,
+      "19": 1,
+      "20": 1,
+      "21": 1,
+      "22": 1,
+      "23": 1,
+      "24": 1,
+      "25": 1,
+      "26": 1,
+      "27": 1,
+      "28": 1,
+      "29": 1,
+      "30": 1,
+      "31": 1,
+      "32": 1,
+      "33": 1,
+      "34": 1,
+      "35": 1,
+      "36": 1,
+      "37": 1,
+      "38": 1,
+      "39": 1,
+      "40": 1,
+      "41": 1,
+      "42": 1,
+      "43": 1,
+      "44": 1,
+      "45": 1,
+      "46": 1,
+      "47": 1,
+      "48": 1,
+      "49": 1,
+      "50": 1,
+      "51": 1,
+      "52": 1,
+      "53": 1,
+      "54": 1,
+      "55": 1,
+      "56": 1,
+      "57": 1,
+      "58": 1,
+      "59": 1,
+      "60": 1,
+      "61": 1,
+      "62": 1,
+      "63": 1,
+      "64": 1,
+      "65": 1,
+      "66": 1,
+      "67": 1,
+      "68": 1,
+      "69": 1,
+      "70": 1,
+      "71": 1,
+      "72": 1,
+      "73": 1,
+      "74": 1,
+      "75": 1,
+      "76": 1,
+      "77": 1,
+      "78": 1,
+      "79": 1,
+      "80": 1,
+      "81": 1,
+      "82": 1,
+      "83": 1,
+      "84": 1,
+      "85": 1,
+      "86": 1,
+      "87": 1,
+      "88": 1,
+      "89": 1,
+      "90": 1,
+      "91": 5,
+      "92": 4,
+      "93": 4,
+      "94": 1,
+      "95": 1
+    },
+    "f": {
+      "0": 1,
+      "1": 1,
+      "2": 5,
+      "3": 1
+    },
+    "b": {
+      "0": [
+        1,
+        1
+      ],
+      "1": [
+        1,
+        4
+      ],
+      "2": [
+        4,
+        1
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "file": "app.component.js",
+      "sourceRoot": "",
+      "sources": [
+        "C:\\Users\\walchshofer\\git\\coverage-workspace\\apps\\cov-app\\src\\app\\app.component.ts",
+        "C:\\Users\\walchshofer\\git\\coverage-workspace\\apps\\cov-app\\src\\app\\app.component.html"
+      ],
+      "names": [],
+      "mappings": "AAAA,OAAO,EAAE,SAAS,EAAE,MAAM,eAAe,CAAC;;AAO1C,MAAM,OAAO,YAAY;IALzB;QAME,UAAK,GAAG,SAAS,CAAC;KACnB;;wEAFY,YAAY;iDAAZ,YAAY;QCPzB,iCACE;QAAA,yBAKA;QAAA,0BAAI;QAAA,YAAuB;QAAA,iBAAK;QAClC,iBAAS;QACT,4BACE;QAAA,0BAAI;QAAA,iCAAqB;QAAA,iBAAK;QAC9B,yBACE;QAAA,qEACF;QAAA,iBAAI;QACJ,8BACE;QAAA,6BAKE;QAAA,yDACA;QAAA,+BACE;QAAA,mBAOE;QAPF,+BAOE;QAAA,2BACA;QAAA,2BAGF;QAAA,iBAAM;QACN,uBACF;QAAA,iBAAM;QACR,iBAAI;QACN,iBAAM;QACN,oBACE;QADF,0BACE;QAAA,+DACF;QAAA,iBAAI;QACJ,8BACE;QAAA,8BACE;QAAA,8BAIE;QAAA,kCACF;QAAA,iBAAI;QACN,iBAAK;QACL,8BACE;QAAA,8BAIE;QAAA,oCACF;QAAA,iBAAI;QACN,iBAAK;QACL,8BACE;QAAA,8BAIE;QAAA,uCACF;QAAA,iBAAI;QACN,iBAAK;QACL,8BACE;QAAA,8BACE;QAAA,2BAKA;QAAA,iCAA0B;QAAA,6BAAY;QAAA,iBAAO;QAC/C,iBAAI;QACN,iBAAK;QACP,iBAAK;QACL,2BAAI;QAAA,2BAAU;QAAA,iBAAK;QACnB,0BAAG;QAAA,yDAAwC;QAAA,iBAAI;QAC/C,oCACE;QAAA,gCAAS;QAAA,+BAAc;QAAA,iBAAU;QACjC,4BACJ;QAAA,iIAI6C;QAAA,iBACxC;QACH,iBAAU;QACV,gCACE;QAAA,gCAAS;QAAA,sCAAqB;QAAA,iBAAU;QACxC,4BAAK;QAAA,6BAAY;QAAA,iBAAM;QACzB,iBAAU;QACV,gCACE;QAAA,gCAAS;QAAA,sCAAqB;QAAA,iBAAU;QACxC,4BACJ;QAAA,4LAQA;QAAA,iBACK;QACH,iBAAU;QACZ,iBAAO;;QApGD,eAAuB;QAAvB,oDAAuB;;kDDChB,YAAY;cALxB,SAAS;eAAC;gBACT,QAAQ,EAAE,yBAAyB;gBACnC,WAAW,EAAE,sBAAsB;gBACnC,SAAS,EAAE,CAAC,qBAAqB,CAAC;aACnC",
+      "sourcesContent": [
+        "import { Component } from '@angular/core';\r\n\r\n@Component({\r\n  selector: 'coverage-workspace-root',\r\n  templateUrl: './app.component.html',\r\n  styleUrls: ['./app.component.css']\r\n})\r\nexport class AppComponent {\r\n  title = 'cov-app';\r\n}\r\n",
+        "<header class=\"flex\">\r\n  <img\r\n    alt=\"Nx logo\"\r\n    width=\"75\"\r\n    src=\"https://nx.dev/assets/images/nx-logo-white.svg\"\r\n  />\r\n  <h1>Welcome to {{ title }}!</h1>\r\n</header>\r\n<main>\r\n  <h2>Resources &amp; Tools</h2>\r\n  <p>\r\n    Thank you for using and showing some ♥ for Nx.\r\n  </p>\r\n  <div class=\"flex github-star-container\">\r\n    <a\r\n      href=\"https://github.com/nrwl/nx\"\r\n      target=\"_blank\"\r\n      rel=\"noopener noreferrer\"\r\n    >\r\n      If you like Nx, please give it a star:\r\n      <div class=\"github-star-badge\">\r\n        <svg\r\n          class=\"material-icons\"\r\n          xmlns=\"http://www.w3.org/2000/svg\"\r\n          width=\"24\"\r\n          height=\"24\"\r\n          viewBox=\"0 0 24 24\"\r\n        >\r\n          <path d=\"M0 0h24v24H0z\" fill=\"none\" />\r\n          <path\r\n            d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"\r\n          />\r\n        </svg>\r\n        Star\r\n      </div>\r\n    </a>\r\n  </div>\r\n  <p>\r\n    Here are some links to help you get started.\r\n  </p>\r\n  <ul class=\"resources\">\r\n    <li class=\"col-span-2\">\r\n      <a\r\n        class=\"resource flex\"\r\n        href=\"https://connect.nrwl.io/app/courses/nx-workspaces/intro\"\r\n      >\r\n        Nx video course\r\n      </a>\r\n    </li>\r\n    <li class=\"col-span-2\">\r\n      <a\r\n        class=\"resource flex\"\r\n        href=\"https://nx.dev/angular/getting-started/what-is-nx\"\r\n      >\r\n        Nx video tutorial\r\n      </a>\r\n    </li>\r\n    <li class=\"col-span-2\">\r\n      <a\r\n        class=\"resource flex\"\r\n        href=\"https://nx.dev/angular/tutorial/01-create-application\"\r\n      >\r\n        Interactive tutorial\r\n      </a>\r\n    </li>\r\n    <li class=\"col-span-2\">\r\n      <a class=\"resource flex\" href=\"https://connect.nrwl.io/\">\r\n        <img\r\n          height=\"36\"\r\n          alt=\"Nrwl Connect\"\r\n          src=\"https://connect.nrwl.io/assets/img/CONNECT_ColorIcon.png\"\r\n        />\r\n        <span class=\"gutter-left\">Nrwl Connect</span>\r\n      </a>\r\n    </li>\r\n  </ul>\r\n  <h2>Next Steps</h2>\r\n  <p>Here are some things you can do with Nx.</p>\r\n  <details open>\r\n    <summary>Add UI library</summary>\r\n    <pre>\r\n# Generate UI lib\r\nng g @nrwl/angular:lib ui\r\n\r\n# Add a component\r\nng g @nrwl/angular:component xyz --project ui</pre\r\n    >\r\n  </details>\r\n  <details>\r\n    <summary>View dependency graph</summary>\r\n    <pre>nx dep-graph</pre>\r\n  </details>\r\n  <details>\r\n    <summary>Run affected commands</summary>\r\n    <pre>\r\n# see what's been affected by changes\r\nng affected:dep-graph\r\n\r\n# run tests for current changes\r\nng affected:test\r\n\r\n# run e2e tests for current changes\r\nng affected:e2e\r\n</pre\r\n    >\r\n  </details>\r\n</main>\r\n"
+      ]
+    },
+    "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+    "hash": "d5fcecb7b57f127e889320ec56469d47d28b9d20"
+  },
+  "C:\\Users\\walchshofer\\git\\coverage-workspace\\apps\\cov-app\\src\\app\\app.module.ts": {
+    "path": "C:\\Users\\walchshofer\\git\\coverage-workspace\\apps\\cov-app\\src\\app\\app.module.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 7,
+          "column": 0
+        },
+        "end": {
+          "line": 7,
+          "column": 85
+        }
+      },
+      "1": {
+        "start": {
+          "line": 8,
+          "column": 0
+        },
+        "end": {
+          "line": 8,
+          "column": 159
+        }
+      },
+      "2": {
+        "start": {
+          "line": 8,
+          "column": 80
+        },
+        "end": {
+          "line": 8,
+          "column": 110
+        }
+      },
+      "3": {
+        "start": {
+          "line": 9,
+          "column": 0
+        },
+        "end": {
+          "line": 9,
+          "column": 165
+        }
+      },
+      "4": {
+        "start": {
+          "line": 9,
+          "column": 15
+        },
+        "end": {
+          "line": 9,
+          "column": 159
+        }
+      },
+      "5": {
+        "start": {
+          "line": 10,
+          "column": 14
+        },
+        "end": {
+          "line": 18,
+          "column": 26
+        }
+      },
+      "6": {
+        "start": {
+          "line": 10,
+          "column": 29
+        },
+        "end": {
+          "line": 18,
+          "column": 20
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "AppModule_Factory",
+        "decl": {
+          "start": {
+            "line": 8,
+            "column": 57
+          },
+          "end": {
+            "line": 8,
+            "column": 74
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 78
+          },
+          "end": {
+            "line": 8,
+            "column": 112
+          }
+        },
+        "line": 8
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 9,
+            "column": 1
+          },
+          "end": {
+            "line": 9,
+            "column": 2
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 13
+          },
+          "end": {
+            "line": 9,
+            "column": 161
+          }
+        },
+        "line": 9
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 10,
+            "column": 15
+          },
+          "end": {
+            "line": 10,
+            "column": 16
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 27
+          },
+          "end": {
+            "line": 18,
+            "column": 22
+          }
+        },
+        "line": 10
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 92
+          },
+          "end": {
+            "line": 8,
+            "column": 106
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 8,
+              "column": 92
+            },
+            "end": {
+              "line": 8,
+              "column": 93
+            }
+          },
+          {
+            "start": {
+              "line": 8,
+              "column": 97
+            },
+            "end": {
+              "line": 8,
+              "column": 106
+            }
+          }
+        ],
+        "line": 8
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 15
+          },
+          "end": {
+            "line": 9,
+            "column": 158
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 9,
+              "column": 16
+            },
+            "end": {
+              "line": 9,
+              "column": 48
+            }
+          },
+          {
+            "start": {
+              "line": 9,
+              "column": 52
+            },
+            "end": {
+              "line": 9,
+              "column": 61
+            }
+          },
+          {
+            "start": {
+              "line": 9,
+              "column": 66
+            },
+            "end": {
+              "line": 9,
+              "column": 158
+            }
+          }
+        ],
+        "line": 9
+      }
+    },
+    "s": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1
+    },
+    "f": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "b": {
+      "0": [
+        1,
+        1
+      ],
+      "1": [
+        1,
+        0,
+        1
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "file": "app.module.js",
+      "sourceRoot": "",
+      "sources": [
+        "C:\\Users\\walchshofer\\git\\coverage-workspace\\apps\\cov-app\\src\\app\\app.module.ts"
+      ],
+      "names": [],
+      "mappings": "AAAA,OAAO,EAAE,aAAa,EAAE,MAAM,2BAA2B,CAAC;AAC1D,OAAO,EAAE,QAAQ,EAAE,MAAM,eAAe,CAAC;AAEzC,OAAO,EAAE,YAAY,EAAE,MAAM,iBAAiB,CAAC;;AAQ/C,MAAM,OAAO,SAAS;;6CAAT,SAAS,cAFR,YAAY;iGAEb,SAAS,mBAHT,EAAE,YADJ,CAAC,aAAa,CAAC;wFAIb,SAAS,mBALL,YAAY,aACjB,aAAa;kDAIZ,SAAS;cANrB,QAAQ;eAAC;gBACR,YAAY,EAAE,CAAC,YAAY,CAAC;gBAC5B,OAAO,EAAE,CAAC,aAAa,CAAC;gBACxB,SAAS,EAAE,EAAE;gBACb,SAAS,EAAE,CAAC,YAAY,CAAC;aAC1B",
+      "sourcesContent": [
+        "import { BrowserModule } from '@angular/platform-browser';\r\nimport { NgModule } from '@angular/core';\r\n\r\nimport { AppComponent } from './app.component';\r\n\r\n@NgModule({\r\n  declarations: [AppComponent],\r\n  imports: [BrowserModule],\r\n  providers: [],\r\n  bootstrap: [AppComponent]\r\n})\r\nexport class AppModule {}\r\n"
+      ]
+    },
+    "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+    "hash": "80cbcd08135e7b8aaa26dbff151412dcabeef473"
+  },
+  "C:\\Users\\walchshofer\\git\\coverage-workspace\\apps\\cov-app\\src\\main.ts": {
+    "path": "C:\\Users\\walchshofer\\git\\coverage-workspace\\apps\\cov-app\\src\\main.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 7,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 6,
+          "column": 4
+        },
+        "end": {
+          "line": 6,
+          "column": 21
+        }
+      },
+      "2": {
+        "start": {
+          "line": 8,
+          "column": 0
+        },
+        "end": {
+          "line": 9,
+          "column": 38
+        }
+      },
+      "3": {
+        "start": {
+          "line": 9,
+          "column": 18
+        },
+        "end": {
+          "line": 9,
+          "column": 36
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 9,
+            "column": 11
+          },
+          "end": {
+            "line": 9,
+            "column": 12
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 18
+          },
+          "end": {
+            "line": 9,
+            "column": 36
+          }
+        },
+        "line": 9
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 0
+          },
+          "end": {
+            "line": 7,
+            "column": 1
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 5,
+              "column": 0
+            },
+            "end": {
+              "line": 7,
+              "column": 1
+            }
+          },
+          {
+            "start": {
+              "line": 5,
+              "column": 0
+            },
+            "end": {
+              "line": 7,
+              "column": 1
+            }
+          }
+        ],
+        "line": 5
+      }
+    },
+    "s": {
+      "0": 1,
+      "1": 0,
+      "2": 1,
+      "3": 0
+    },
+    "f": {
+      "0": 0
+    },
+    "b": {
+      "0": [
+        0,
+        1
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "file": "main.js",
+      "sourceRoot": "",
+      "sources": [
+        "C:\\Users\\walchshofer\\git\\coverage-workspace\\apps\\cov-app\\src\\main.ts"
+      ],
+      "names": [],
+      "mappings": "AAAA,OAAO,EAAE,cAAc,EAAE,MAAM,eAAe,CAAC;AAI/C,OAAO,EAAE,WAAW,EAAE,MAAM,4BAA4B,CAAC;;;AAEzD,IAAI,WAAW,CAAC,UAAU,EAAE;IAC1B,cAAc,EAAE,CAAC;CAClB;AAED,qCAAwB,gBACN,+BAAW;KAC1B,KAAK,CAAC,GAAG,CAAC,EAAE,CAAC,OAAO,CAAC,KAAK,CAAC,GAAG,CAAC,CAAC,CAAC",
+      "sourcesContent": [
+        "import { enableProdMode } from '@angular/core';\r\nimport { platformBrowserDynamic } from '@angular/platform-browser-dynamic';\r\n\r\nimport { AppModule } from './app/app.module';\r\nimport { environment } from './environments/environment';\r\n\r\nif (environment.production) {\r\n  enableProdMode();\r\n}\r\n\r\nplatformBrowserDynamic()\r\n  .bootstrapModule(AppModule)\r\n  .catch(err => console.error(err));\r\n"
+      ]
+    },
+    "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+    "hash": "d3fd73ed7a58f04db5c1f427f8d259cd45e9f89f"
+  }
+}

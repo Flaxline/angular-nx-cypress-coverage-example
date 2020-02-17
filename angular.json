@@ -56,9 +56,10 @@
           }
         },
         "serve": {
-          "builder": "@angular-devkit/build-angular:dev-server",
+          "builder": "ngx-build-plus:dev-server",
           "options": {
-            "browserTarget": "cov-app:build"
+            "browserTarget": "cov-app:build",
+            "extraWebpackConfig": "./apps/cov-app-e2e/coverage.webpack.js"
           },
           "configurations": {
             "production": {
@@ -118,6 +119,33 @@
           }
         }
       }
+    },
+    "ui-lib": {
+      "projectType": "library",
+      "root": "libs/ui-lib",
+      "sourceRoot": "libs/ui-lib/src",
+      "prefix": "coverage-workspace",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/ui-lib/tsconfig.lib.json",
+              "libs/ui-lib/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/ui-lib/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/ui-lib/jest.config.js",
+            "tsConfig": "libs/ui-lib/tsconfig.spec.json",
+            "setupFile": "libs/ui-lib/src/test-setup.ts"
+          }
+        }
+      },
+      "schematics": {}
     }
   },
   "cli": {

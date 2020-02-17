@@ -17,6 +17,9 @@
     "cov-app-e2e": {
       "tags": [],
       "implicitDependencies": ["cov-app"]
+    },
+    "ui-lib": {
+      "tags": []
     }
   }
 }
