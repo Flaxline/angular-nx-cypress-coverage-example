@@ -1,0 +1,836 @@
+{
+  "C:\\Users\\walchshofer\\git\\coverage-workspace\\libs\\ui-lib\\src\\lib\\task\\task.component.ts": {
+    "path": "C:\\Users\\walchshofer\\git\\coverage-workspace\\libs\\ui-lib\\src\\lib\\task\\task.component.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 20
+        },
+        "end": {
+          "line": 16,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 6,
+          "column": 8
+        },
+        "end": {
+          "line": 6,
+          "column": 44
+        }
+      },
+      "2": {
+        "start": {
+          "line": 7,
+          "column": 8
+        },
+        "end": {
+          "line": 7,
+          "column": 48
+        }
+      },
+      "3": {
+        "start": {
+          "line": 11,
+          "column": 8
+        },
+        "end": {
+          "line": 11,
+          "column": 32
+        }
+      },
+      "4": {
+        "start": {
+          "line": 14,
+          "column": 8
+        },
+        "end": {
+          "line": 14,
+          "column": 36
+        }
+      },
+      "5": {
+        "start": {
+          "line": 17,
+          "column": 0
+        },
+        "end": {
+          "line": 20,
+          "column": 44
+        }
+      },
+      "6": {
+        "start": {
+          "line": 21,
+          "column": 0
+        },
+        "end": {
+          "line": 24,
+          "column": 49
+        }
+      },
+      "7": {
+        "start": {
+          "line": 25,
+          "column": 0
+        },
+        "end": {
+          "line": 28,
+          "column": 53
+        }
+      },
+      "8": {
+        "start": {
+          "line": 29,
+          "column": 0
+        },
+        "end": {
+          "line": 36,
+          "column": 18
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 4
+          },
+          "end": {
+            "line": 5,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 18
+          },
+          "end": {
+            "line": 8,
+            "column": 5
+          }
+        },
+        "line": 5
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 9,
+            "column": 4
+          },
+          "end": {
+            "line": 9,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 15
+          },
+          "end": {
+            "line": 9,
+            "column": 18
+          }
+        },
+        "line": 9
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 10,
+            "column": 4
+          },
+          "end": {
+            "line": 10,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 14
+          },
+          "end": {
+            "line": 12,
+            "column": 5
+          }
+        },
+        "line": 10
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 13,
+            "column": 4
+          },
+          "end": {
+            "line": 13,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 18
+          },
+          "end": {
+            "line": 15,
+            "column": 5
+          }
+        },
+        "line": 13
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 23,
+            "column": 30
+          },
+          "end": {
+            "line": 23,
+            "column": 124
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 23,
+              "column": 113
+            },
+            "end": {
+              "line": 23,
+              "column": 115
+            }
+          },
+          {
+            "start": {
+              "line": 23,
+              "column": 118
+            },
+            "end": {
+              "line": 23,
+              "column": 124
+            }
+          }
+        ],
+        "line": 23
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 23,
+            "column": 43
+          },
+          "end": {
+            "line": 23,
+            "column": 94
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 23,
+              "column": 43
+            },
+            "end": {
+              "line": 23,
+              "column": 78
+            }
+          },
+          {
+            "start": {
+              "line": 23,
+              "column": 82
+            },
+            "end": {
+              "line": 23,
+              "column": 94
+            }
+          }
+        ],
+        "line": 23
+      },
+      "2": {
+        "loc": {
+          "start": {
+            "line": 27,
+            "column": 30
+          },
+          "end": {
+            "line": 27,
+            "column": 124
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 27,
+              "column": 113
+            },
+            "end": {
+              "line": 27,
+              "column": 115
+            }
+          },
+          {
+            "start": {
+              "line": 27,
+              "column": 118
+            },
+            "end": {
+              "line": 27,
+              "column": 124
+            }
+          }
+        ],
+        "line": 27
+      },
+      "3": {
+        "loc": {
+          "start": {
+            "line": 27,
+            "column": 43
+          },
+          "end": {
+            "line": 27,
+            "column": 94
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 27,
+              "column": 43
+            },
+            "end": {
+              "line": 27,
+              "column": 78
+            }
+          },
+          {
+            "start": {
+              "line": 27,
+              "column": 82
+            },
+            "end": {
+              "line": 27,
+              "column": 94
+            }
+          }
+        ],
+        "line": 27
+      },
+      "4": {
+        "loc": {
+          "start": {
+            "line": 32,
+            "column": 18
+          },
+          "end": {
+            "line": 32,
+            "column": 189
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 32,
+              "column": 107
+            },
+            "end": {
+              "line": 32,
+              "column": 183
+            }
+          },
+          {
+            "start": {
+              "line": 32,
+              "column": 187
+            },
+            "end": {
+              "line": 32,
+              "column": 189
+            }
+          }
+        ],
+        "line": 32
+      },
+      "5": {
+        "loc": {
+          "start": {
+            "line": 32,
+            "column": 19
+          },
+          "end": {
+            "line": 32,
+            "column": 95
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 32,
+              "column": 19
+            },
+            "end": {
+              "line": 32,
+              "column": 59
+            }
+          },
+          {
+            "start": {
+              "line": 32,
+              "column": 63
+            },
+            "end": {
+              "line": 32,
+              "column": 95
+            }
+          }
+        ],
+        "line": 32
+      },
+      "6": {
+        "loc": {
+          "start": {
+            "line": 32,
+            "column": 107
+          },
+          "end": {
+            "line": 32,
+            "column": 183
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 32,
+              "column": 107
+            },
+            "end": {
+              "line": 32,
+              "column": 147
+            }
+          },
+          {
+            "start": {
+              "line": 32,
+              "column": 151
+            },
+            "end": {
+              "line": 32,
+              "column": 183
+            }
+          }
+        ],
+        "line": 32
+      },
+      "7": {
+        "loc": {
+          "start": {
+            "line": 33,
+            "column": 17
+          },
+          "end": {
+            "line": 33,
+            "column": 184
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 33,
+              "column": 104
+            },
+            "end": {
+              "line": 33,
+              "column": 178
+            }
+          },
+          {
+            "start": {
+              "line": 33,
+              "column": 182
+            },
+            "end": {
+              "line": 33,
+              "column": 184
+            }
+          }
+        ],
+        "line": 33
+      },
+      "8": {
+        "loc": {
+          "start": {
+            "line": 33,
+            "column": 18
+          },
+          "end": {
+            "line": 33,
+            "column": 92
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 33,
+              "column": 18
+            },
+            "end": {
+              "line": 33,
+              "column": 57
+            }
+          },
+          {
+            "start": {
+              "line": 33,
+              "column": 61
+            },
+            "end": {
+              "line": 33,
+              "column": 92
+            }
+          }
+        ],
+        "line": 33
+      },
+      "9": {
+        "loc": {
+          "start": {
+            "line": 33,
+            "column": 104
+          },
+          "end": {
+            "line": 33,
+            "column": 178
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 33,
+              "column": 104
+            },
+            "end": {
+              "line": 33,
+              "column": 143
+            }
+          },
+          {
+            "start": {
+              "line": 33,
+              "column": 147
+            },
+            "end": {
+              "line": 33,
+              "column": 178
+            }
+          }
+        ],
+        "line": 33
+      }
+    },
+    "s": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 0,
+      "4": 0,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1
+    },
+    "f": {
+      "0": 1,
+      "1": 1,
+      "2": 0,
+      "3": 0
+    },
+    "b": {
+      "0": [
+        1,
+        0
+      ],
+      "1": [
+        1,
+        1
+      ],
+      "2": [
+        1,
+        0
+      ],
+      "3": [
+        1,
+        1
+      ],
+      "4": [
+        1,
+        0
+      ],
+      "5": [
+        1,
+        0
+      ],
+      "6": [
+        1,
+        0
+      ],
+      "7": [
+        0,
+        1
+      ],
+      "8": [
+        1,
+        1
+      ],
+      "9": [
+        0,
+        0
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "file": "C:\\Users\\walchshofer\\git\\coverage-workspace\\libs\\ui-lib\\src\\lib\\task\\task.component.ts",
+      "sourceRoot": "",
+      "sources": [
+        "C:\\Users\\walchshofer\\git\\coverage-workspace\\libs\\ui-lib\\src\\lib\\task\\task.component.ts"
+      ],
+      "names": [],
+      "mappings": ";;AAAA,OAAO,EAAC,SAAS,EAAU,KAAK,EAAE,MAAM,EAAE,YAAY,EAAE,MAAM,eAAe,CAAC;AAO9E,IAAa,aAAa,GAA1B,MAAa,aAAa;IAOxB;QAHU,cAAS,GAAsB,IAAI,YAAY,EAAE,CAAC;QAClD,kBAAa,GAAsB,IAAI,YAAY,EAAE,CAAC;IAEjD,CAAC;IAEhB,QAAQ,KAAI,CAAC;IAEb,KAAK,CAAC,EAAE;QACN,IAAI,CAAC,SAAS,CAAC,IAAI,CAAC,EAAE,CAAC,CAAC;IAC1B,CAAC;IAED,SAAS,CAAC,EAAE;QACV,IAAI,CAAC,aAAa,CAAC,IAAI,CAAC,EAAE,CAAC,CAAC;IAC9B,CAAC;CAEF,CAAA;AAhBU;IAAR,KAAK,EAAE;;2CAAW;AACT;IAAT,MAAM,EAAE;kDAAY,YAAY,oBAAZ,YAAY;gDAA2B;AAClD;IAAT,MAAM,EAAE;kDAAgB,YAAY,oBAAZ,YAAY;oDAA2B;AALrD,aAAa;IALzB,SAAS,CAAC;QACT,QAAQ,EAAE,WAAW;QACrB,QAAQ,EAAE,CAAC,OAAO,CAAC,uBAAuB,CAAC,CAAC,OAAO,IAAI,OAAO,CAAC,uBAAuB,CAAC,CAAC,CAAC,MAAM,CAAC,CAAC,CAAC,CAAC,OAAO,CAAC,uBAAuB,CAAC,CAAC,OAAO,IAAI,OAAO,CAAC,uBAAuB,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;QACrL,MAAM,EAAE,CAAC,CAAC,OAAO,CAAC,sBAAsB,CAAC,CAAC,OAAO,IAAI,OAAO,CAAC,sBAAsB,CAAC,CAAC,CAAC,MAAM,CAAC,CAAC,CAAC,CAAC,OAAO,CAAC,sBAAsB,CAAC,CAAC,OAAO,IAAI,OAAO,CAAC,sBAAsB,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC;KAClL,CAAC;;GACW,aAAa,CAmBzB;SAnBY,aAAa",
+      "sourcesContent": [
+        "import {Component, OnInit, Input, Output, EventEmitter } from '@angular/core';\r\n\r\n@Component({\r\n  selector: 'task-item',\r\n  template: (require('./task.component.html').default || require('./task.component.html')).length ? (require('./task.component.html').default || require('./task.component.html')) : '',\r\n  styles: [(require('./task.component.css').default || require('./task.component.css')).length ? (require('./task.component.css').default || require('./task.component.css')) : '']\r\n})\r\nexport class TaskComponent implements OnInit {\r\n\r\n  title: string;\r\n  @Input() task: any;\r\n  @Output() onPinTask: EventEmitter<any> = new EventEmitter();\r\n  @Output() onArchiveTask: EventEmitter<any> = new EventEmitter();\r\n\r\n  constructor() {}\r\n\r\n  ngOnInit() {}\r\n\r\n  onPin(id) {\r\n    this.onPinTask.emit(id);\r\n  }\r\n\r\n  onArchive(id) {\r\n    this.onArchiveTask.emit(id);\r\n  }\r\n\r\n}\r\n\r\nexport interface Task {\r\n  id: string;\r\n  title: string;\r\n  state: string;\r\n}"
+      ]
+    },
+    "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+    "hash": "e330dc050407944dd1a9b1ba32c5572432d35736"
+  },
+  "C:\\Users\\walchshofer\\git\\coverage-workspace\\libs\\ui-lib\\src\\lib\\task\\task.component.stories.ts": {
+    "path": "C:\\Users\\walchshofer\\git\\coverage-workspace\\libs\\ui-lib\\src\\lib\\task\\task.component.stories.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 20
+        },
+        "end": {
+          "line": 10,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 11,
+          "column": 23
+        },
+        "end": {
+          "line": 14,
+          "column": 1
+        }
+      },
+      "2": {
+        "start": {
+          "line": 15,
+          "column": 0
+        },
+        "end": {
+          "line": 63,
+          "column": 3
+        }
+      },
+      "3": {
+        "start": {
+          "line": 21,
+          "column": 4
+        },
+        "end": {
+          "line": 28,
+          "column": 6
+        }
+      },
+      "4": {
+        "start": {
+          "line": 31,
+          "column": 4
+        },
+        "end": {
+          "line": 38,
+          "column": 6
+        }
+      },
+      "5": {
+        "start": {
+          "line": 41,
+          "column": 4
+        },
+        "end": {
+          "line": 48,
+          "column": 6
+        }
+      },
+      "6": {
+        "start": {
+          "line": 51,
+          "column": 4
+        },
+        "end": {
+          "line": 62,
+          "column": 6
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 20,
+            "column": 20
+          },
+          "end": {
+            "line": 20,
+            "column": 21
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 20,
+            "column": 26
+          },
+          "end": {
+            "line": 29,
+            "column": 1
+          }
+        },
+        "line": 20
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 30,
+            "column": 19
+          },
+          "end": {
+            "line": 30,
+            "column": 20
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 30,
+            "column": 25
+          },
+          "end": {
+            "line": 39,
+            "column": 1
+          }
+        },
+        "line": 30
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 40,
+            "column": 21
+          },
+          "end": {
+            "line": 40,
+            "column": 22
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 40,
+            "column": 27
+          },
+          "end": {
+            "line": 49,
+            "column": 1
+          }
+        },
+        "line": 40
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 50,
+            "column": 20
+          },
+          "end": {
+            "line": 50,
+            "column": 21
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 50,
+            "column": 26
+          },
+          "end": {
+            "line": 63,
+            "column": 1
+          }
+        },
+        "line": 50
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    "f": {
+      "0": 1,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "file": "C:\\Users\\walchshofer\\git\\coverage-workspace\\libs\\ui-lib\\src\\lib\\task\\task.component.stories.ts",
+      "sourceRoot": "",
+      "sources": [
+        "C:\\Users\\walchshofer\\git\\coverage-workspace\\libs\\ui-lib\\src\\lib\\task\\task.component.stories.ts"
+      ],
+      "names": [],
+      "mappings": "AAAA,OAAO,EAAE,SAAS,EAAE,cAAc,EAAE,MAAM,oBAAoB,CAAC;AAC/D,OAAO,EAAE,MAAM,EAAE,MAAM,0BAA0B,CAAC;AAClD,OAAO,EAAS,OAAO,EAAE,SAAS,EAAE,MAAM,EAAE,IAAI,EAAE,MAAM,wBAAwB,CAAC;AACjF,OAAO,EAAE,aAAa,EAAE,MAAM,kBAAkB,CAAC;AAEjD,MAAM,CAAC,MAAM,IAAI,GAAG;IAClB,EAAE,EAAE,GAAG;IACP,KAAK,EAAE,WAAW;IAClB,KAAK,EAAE,YAAY;IACnB,SAAS,EAAE,IAAI,IAAI,CAAC,IAAI,EAAE,CAAC,EAAE,CAAC,EAAE,CAAC,EAAE,CAAC,CAAC;CACtC,CAAC;AAEF,MAAM,CAAC,MAAM,OAAO,GAAG;IACrB,SAAS,EAAE,MAAM,CAAC,WAAW,CAAC;IAC9B,aAAa,EAAE,MAAM,CAAC,eAAe,CAAC;CACvC,CAAC;AAEF,SAAS,CAAC,MAAM,EAAE,MAAM,CAAC;KACtB,YAAY,CAAC,SAAS,CAAC;KACvB,YAAY,CACX,cAAc,CAAC;IACb,YAAY,EAAE,CAAC,aAAa,CAAC;CAC9B,CAAC,CACH;KACA,GAAG,CAAC,SAAS,EAAE,GAAG,EAAE;IACnB,OAAO;QACL,QAAQ,EAAE,gHAAgH;QAC1H,KAAK,EAAE;YACL,IAAI;YACJ,SAAS,EAAE,OAAO,CAAC,SAAS;YAC5B,aAAa,EAAE,OAAO,CAAC,aAAa;SACrC;KACF,CAAC;AACJ,CAAC,CAAC;KACD,GAAG,CAAC,QAAQ,EAAE,GAAG,EAAE;IAClB,OAAO;QACL,QAAQ,EAAE,gHAAgH;QAC1H,KAAK,EAAE;YACL,IAAI,kCAAO,IAAI,KAAE,KAAK,EAAE,OAAO,CAAC,UAAU,EAAE,KAAK,CAAC,GAAE;YACpD,SAAS,EAAE,OAAO,CAAC,SAAS;YAC5B,aAAa,EAAE,OAAO,CAAC,aAAa;SACrC;KACF,CAAC;AACJ,CAAC,CAAC;KACD,GAAG,CAAC,UAAU,EAAE,GAAG,EAAE;IACpB,OAAO;QACL,QAAQ,EAAE,gHAAgH;QAC1H,KAAK,EAAE;YACL,IAAI,kCAAO,IAAI,KAAE,KAAK,EAAE,eAAe,GAAE;YACzC,SAAS,EAAE,OAAO,CAAC,SAAS;YAC5B,aAAa,EAAE,OAAO,CAAC,aAAa;SACrC;KACF,CAAC;AACJ,CAAC,CAAC;KACD,GAAG,CAAC,SAAS,EAAE,GAAG,EAAE;IACnB,OAAO;QACL,QAAQ,EAAE,gHAAgH;QAC1H,KAAK,EAAE;YACL,IAAI,EAAE;gBACJ,EAAE,EAAE,MAAM,CAAC,IAAI,EAAE,CAAC,CAAC;gBACnB,KAAK,EAAE,IAAI,CAAC,OAAO,EAAE,EAAE,CAAC;gBACxB,KAAK,EAAE,eAAe;aAAE;YAC1B,SAAS,EAAE,OAAO,CAAC,SAAS;YAC5B,aAAa,EAAE,OAAO,CAAC,aAAa;SACrC;KACF,CAAC;AACJ,CAAC,CAAC,CAAC",
+      "sourcesContent": [
+        "import { storiesOf, moduleMetadata } from '@storybook/angular';\r\nimport { action } from '@storybook/addon-actions';\r\nimport { array, boolean, withKnobs, number, text } from '@storybook/addon-knobs';\r\nimport { TaskComponent } from './task.component';\r\n\r\nexport const task = {\r\n  id: '1',\r\n  title: 'Test Task',\r\n  state: 'TASK_INBOX',\r\n  updatedAt: new Date(2018, 0, 1, 9, 0),\r\n};\r\n\r\nexport const actions = {\r\n  onPinTask: action('onPinTask'),\r\n  onArchiveTask: action('onArchiveTask'),\r\n};\r\n\r\nstoriesOf('Task', module)\r\n  .addDecorator(withKnobs)\r\n  .addDecorator(\r\n    moduleMetadata({\r\n      declarations: [TaskComponent],\r\n    })\r\n  )\r\n  .add('default', () => {\r\n    return {\r\n      template: `<task-item [task]=\"task\" (onPinTask)=\"onPinTask($event)\" (onArchiveTask)=\"onArchiveTask($event)\" ></task-item>`,\r\n      props: {\r\n        task,\r\n        onPinTask: actions.onPinTask,\r\n        onArchiveTask: actions.onArchiveTask,\r\n      },\r\n    };\r\n  })\r\n  .add('pinned', () => {\r\n    return {\r\n      template: `<task-item [task]=\"task\" (onPinTask)=\"onPinTask($event)\" (onArchiveTask)=\"onArchiveTask($event)\" ></task-item>`,\r\n      props: {\r\n        task: { ...task, state: boolean('disabled', false) },\r\n        onPinTask: actions.onPinTask,\r\n        onArchiveTask: actions.onArchiveTask,\r\n      },\r\n    };\r\n  })\r\n  .add('archived', () => {\r\n    return {\r\n      template: `<task-item [task]=\"task\" (onPinTask)=\"onPinTask($event)\" (onArchiveTask)=\"onArchiveTask($event)\" ></task-item>`,\r\n      props: {\r\n        task: { ...task, state: 'TASK_ARCHIVED' },\r\n        onPinTask: actions.onPinTask,\r\n        onArchiveTask: actions.onArchiveTask,\r\n      },\r\n    };\r\n  })\r\n  .add('knobbed', () => {\r\n    return {\r\n      template: `<task-item [task]=\"task\" (onPinTask)=\"onPinTask($event)\" (onArchiveTask)=\"onArchiveTask($event)\" ></task-item>`,\r\n      props: {\r\n        task: { \r\n          id: number('id', 0),\r\n          title: text('title', ''),\r\n          state: 'TASK_ARCHIVED' },\r\n        onPinTask: actions.onPinTask,\r\n        onArchiveTask: actions.onArchiveTask,\r\n      },\r\n    };\r\n  });\r\n"
+      ]
+    },
+    "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+    "hash": "6b13aa890993845ac1260ed8413cf4dd72582f5f"
+  }
+}

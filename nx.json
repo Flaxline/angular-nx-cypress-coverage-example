@@ -16,10 +16,18 @@
     },
     "cov-app-e2e": {
       "tags": [],
-      "implicitDependencies": ["cov-app"]
+      "implicitDependencies": [
+        "cov-app"
+      ]
     },
     "ui-lib": {
       "tags": []
+    },
+    "ui-lib-e2e": {
+      "tags": [],
+      "implicitDependencies": [
+        "ui-lib"
+      ]
     }
   }
 }

@@ -10,4 +10,8 @@ describe('cov-app', () => {
     // Function helper example, see `../support/app.po.ts` file
     getGreeting().contains('Welcome to cov-app!');
   });
+
+  it('should check if task-item is there', () => {
+    cy.get('task-item').should('exist');
+  })
 });

@@ -21,7 +21,9 @@
               "apps/cov-app/src/favicon.ico",
               "apps/cov-app/src/assets"
             ],
-            "styles": ["apps/cov-app/src/styles.css"],
+            "styles": [
+              "apps/cov-app/src/styles.css"
+            ],
             "scripts": []
           },
           "configurations": {
@@ -80,7 +82,10 @@
               "apps/cov-app/tsconfig.app.json",
               "apps/cov-app/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!apps/cov-app/**"]
+            "exclude": [
+              "**/node_modules/**",
+              "!apps/cov-app/**"
+            ]
           }
         },
         "test": {
@@ -114,8 +119,13 @@
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
-            "tsConfig": ["apps/cov-app-e2e/tsconfig.e2e.json"],
-            "exclude": ["**/node_modules/**", "!apps/cov-app-e2e/**"]
+            "tsConfig": [
+              "apps/cov-app-e2e/tsconfig.e2e.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!apps/cov-app-e2e/**"
+            ]
           }
         }
       }
@@ -133,7 +143,10 @@
               "libs/ui-lib/tsconfig.lib.json",
               "libs/ui-lib/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/ui-lib/**"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/ui-lib/**"
+            ]
           }
         },
         "test": {
@@ -143,9 +156,71 @@
             "tsConfig": "libs/ui-lib/tsconfig.spec.json",
             "setupFile": "libs/ui-lib/src/test-setup.ts"
           }
+        },
+        "storybook": {
+          "builder": "@nrwl/storybook:storybook",
+          "options": {
+            "uiFramework": "@storybook/angular",
+            "port": 4400,
+            "config": {
+              "configFolder": "libs/ui-lib/.storybook"
+            }
+          },
+          "configurations": {
+            "ci": {
+              "quiet": true
+            }
+          }
+        },
+        "build-storybook": {
+          "builder": "@nrwl/storybook:build",
+          "options": {
+            "uiFramework": "@storybook/angular",
+            "outputPath": "dist/storybook/ui-lib",
+            "config": {
+              "configFolder": "libs/ui-lib/.storybook"
+            }
+          },
+          "configurations": {
+            "ci": {
+              "quiet": true
+            }
+          }
         }
       },
       "schematics": {}
+    },
+    "ui-lib-e2e": {
+      "root": "apps/ui-lib-e2e",
+      "sourceRoot": "apps/ui-lib-e2e/src",
+      "projectType": "application",
+      "architect": {
+        "e2e": {
+          "builder": "@nrwl/cypress:cypress",
+          "options": {
+            "cypressConfig": "apps/ui-lib-e2e/cypress.json",
+            "tsConfig": "apps/ui-lib-e2e/tsconfig.e2e.json",
+            "devServerTarget": "ui-lib:storybook"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "ui-lib:serve:production"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "apps/ui-lib-e2e/tsconfig.e2e.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!apps/ui-lib-e2e/**"
+            ]
+          }
+        }
+      }
     }
   },
   "cli": {

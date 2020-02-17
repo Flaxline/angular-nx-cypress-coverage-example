@@ -1,0 +1,20 @@
+<div class="list-item {{ task?.state }}">
+    <label class="checkbox">
+      <input
+        id="myCB"
+        type="checkbox"
+        [defaultChecked]="task?.state === 'TASK_ARCHIVED'"
+        name="checked"
+      />
+      <span class="checkbox-custom" (click)="onArchive(task.id)"></span>
+    </label>
+    <div class="title">
+      <input id="myTitle" type="text" [value]="task?.title" placeholder="Input title" />
+    </div>
+
+    <div class="actions">
+      <a *ngIf="task?.state !== 'TASK_ARCHIVED'" (click)="onPin(task.id)">
+        <span id="mySTAR" class="icon-star"></span>
+      </a>
+    </div>
+  </div>

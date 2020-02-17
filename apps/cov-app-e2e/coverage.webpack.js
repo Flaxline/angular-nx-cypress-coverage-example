@@ -6,7 +6,10 @@ module.exports = {
         loader: 'istanbul-instrumenter-loader',
         options: { esModules: true },
         enforce: 'post',
-        include: require('path').join(__dirname, '..', 'cov-app/src'),
+        include: [
+          require('path').join(__dirname, '..', 'cov-app/src'),
+          require('path').join(__dirname, '../..', 'libs/ui-lib/src')
+        ],
         exclude: [
           /\.(e2e|spec)\.ts$/,
           /node_modules/,
