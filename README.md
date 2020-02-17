@@ -19,6 +19,8 @@ If you haven't used nx before, you might need to run `npm install @nrwl/nx` as w
 
 ### Running
 
+At least on Windows, there might be problems with locating `nyc`. You can solve that by either putting your `node_modules/.bin` on PATH (and of course restarting your terminal to make sure it's applied) or prefixing all execution commands with `npx`.
+
 #### NX-style
 
 NX generates a lot of commands to run the application, also with more elaborate configurations. They can be run directly in command line, being specified in `nx.json`.
